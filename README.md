@@ -127,9 +127,9 @@ Clearly state in your code comments any other assumptions you have made. Turn in
 
 1. your nonrecursive, semi-in-place mergesort program, (i.e., template <class Comparable> void mergesortImproved( vector<Comparable> &a ) in "mergesortImproved.cpp".) (Don't use different function name or file name!), and
 
-2. a separate report in .doc or .docx that must includes:
+ a separate report in .doc or .docx that must includes:
 
-  1. a one-page output of your improved mergesort program (when #items = 30), and
+  2. a one-page output of your improved mergesort program (when #items = 30), and
 
-  2. a graph that compares the performance among the usual quicksort, the useual mergesort, and your improved mergesort.
+  3. a graph that compares the performance among the usual quicksort, the useual mergesort, and your improved mergesort.
 
