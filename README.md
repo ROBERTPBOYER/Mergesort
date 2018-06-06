@@ -125,58 +125,11 @@ Needless to say, the above mergesortImproved( ) function must not call itself or
 ## What to Turn in
 Clearly state in your code comments any other assumptions you have made. Turn in:
 
-(1) your nonrecursive, semi-in-place mergesort program, (i.e., template <class Comparable> void mergesortImproved( vector<Comparable> &a ) in "mergesortImproved.cpp".) (Don't use different function name or file name!), and
+1. your nonrecursive, semi-in-place mergesort program, (i.e., template <class Comparable> void mergesortImproved( vector<Comparable> &a ) in "mergesortImproved.cpp".) (Don't use different function name or file name!), and
 
-(2) a separate report in .doc or .docx that must includes:
+2. a separate report in .doc or .docx that must includes:
 
-  (2a) a one-page output of your improved mergesort program (when #items = 30), and
+  1. a one-page output of your improved mergesort program (when #items = 30), and
 
-  (2b) a graph that compares the performance among the usual quicksort, the useual mergesort, and your improved mergesort.
+  2. a graph that compares the performance among the usual quicksort, the useual mergesort, and your improved mergesort.
 
- 
-### Grading Guide and Answers
-Check the following grading guide to see how your homework will be graded. Key answer will be made available after the due date through Solution page.
-
- 
-
-          Program 4 Grade Guideline
-
-          1. Documentation (20pts)
-             One page output (a.out 30 will fit one page.)
-             Correct(10pts)           1 ~ 2 errors(5pt)     3+ errors or no results(0pt)
-
-             Performance comparison between your algorithm and ordinary merge/quick sorts
-             Your algorithm worked faster as increasing the array size (10pts)
-             Little difference between your algorithm and others       (5pt)
-             Unsatisfactory comparison                                 (0pt)
-
-          2. Correctness (60 pts)   
-
-            Compiled(20 pt)  Compilation errors(0pt) : If not compiled, 0 for this correctness category
-
-             No recursion
-             Never called the same function (10pts)     Called the same function    (0pt)
-
-             One additional array besides the original array passed from main( )
-             Declared only one additional   (10pts)     Declared two or more arrays (0pt)
-             array
-
-             One way assignment from one to another array in each iteration
-             Yes(10pts)                       No, data assigned back and forth 
-                                                       between two arrays in each 
-                                                       iteration!                  (0pt)
-
-             Your algorithm is still based on the same divide-and-conquer approach
-             Yes (10pts)                                No, totally different       (0pt)
-
-
-          3. Program Organization (20pts)
-             You must write a plenty of comments to help the professor or the grader 
-             understand your code.
-
-             Proper comments
-             Good (10pts)       Fair (7pts)      Poor(3pts)        No explanations(0pt)
-
-             Coding style (proper identations, blank lines, variable names, and non-
-             redundant code)
-             Good (10pts)       Fair (7pts)      Poor(3pts)        No explanations(0pt)
